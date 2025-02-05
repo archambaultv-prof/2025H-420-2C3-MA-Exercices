@@ -14,7 +14,7 @@ contenu.
 ### Cloner le dépôt
 Pour cloner ce dépôt, vous pouvez utiliser la commande suivante:
 ```bash
-git clone https://archambaultv-prof.github.io/2025H-420-2C3-MA-Exercices.git
+git clone https://github.com/archambaultv-prof/2025H-420-2C3-MA-Exercices.git
 ```
 
 ### Configurez votre environnement de développement
