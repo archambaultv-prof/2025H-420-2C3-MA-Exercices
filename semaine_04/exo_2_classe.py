@@ -22,11 +22,12 @@ class Employe:
     pass
 
 
-# Créez une classe `Stagiaire` qui hérite de la classe `Personne`, `Etudiant` et
-# `Employe`. Attention il s'agit d'un héritage en diamant. La classe `Personne`
-# ne doit pas être initialisée deux fois. Vous pouvez ajouter un `print` dans la
-# méthode __init__ de `Personne` pour vérifier si elle est initialisée deux
-# fois. Vous aurez peut-être besoin de modifier les classes `Personne`,
-# `Etudiant` et `Employe` pour utiliser la méthode d'héritage coopératif.
+# Créez une classe `Stagiaire` qui hérite de la classe `Personne`, `Etudiant`
+# et `Employe`. Attention il s'agit d'un héritage en diamant. La classe
+# `Personne` ne doit pas être initialisée deux fois. Vous pouvez ajouter un
+# `print` dans la méthode __init__ de `Personne` pour vérifier si elle est
+# initialisée deux fois. Vous aurez peut-être besoin de modifier les classes
+# `Personne`, `Etudiant` et `Employe` pour utiliser la méthode d'héritage
+# coopératif.
 class Stagiaire(Personne, Etudiant, Employe):
     pass
