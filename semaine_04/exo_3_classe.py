@@ -15,15 +15,15 @@ class Transport:
         pass
 
 
-# Créez une classe `Velo` qui hérite des classes `Transport` et `Log`.
-# Implémentez la méthode __init__ pour initialiser les attributs de ces
-# classes. Vous devez fournir à transport un nom pour l'initialisation.
-class Velo(Transport, Log):
-    def __init__(self, type_velo):
-        pass
+# # Créez une classe `Velo` qui hérite des classes `Transport` et `Log`.
+# # Implémentez la méthode __init__ pour initialiser les attributs de ces
+# # classes. Vous devez fournir à transport un nom pour l'initialisation.
+# class Velo(Transport, Log):
+#     def __init__(self, type_velo):
+#         pass
 
 
-# Exemple d'utilisation
-if __name__ == "__main__":
-    mon_velo = Velo("Montagne")
-    mon_velo.log("Ceci est un message de log pour le vélo.")
+# # Exemple d'utilisation
+# if __name__ == "__main__":
+#     mon_velo = Velo("Montagne")
+#     mon_velo.log("Ceci est un message de log pour le vélo.")
